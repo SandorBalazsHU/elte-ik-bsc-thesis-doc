@@ -1,16 +1,29 @@
 <map id="Animator::update" name="Animator::update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,269,147,299"/>
-<area shape="rect" id="node2" href="$da/d23/classAnimator.html#a859b6b1bff67ed690afd74fedc3f2e3a" title=" " alt="" coords="222,189,423,219"/>
-<area shape="rect" id="node3" href="$da/d23/classAnimator.html#a8438b6e6faf8f64905b18d636b9e741c" title=" " alt="" coords="239,243,406,272"/>
-<area shape="rect" id="node12" href="$da/d23/classAnimator.html#a9f7000f59ad279f406bb6a71f7c7ceb1" title=" " alt="" coords="195,296,451,325"/>
-<area shape="rect" id="node14" href="$da/d23/classAnimator.html#abaf555a4ca5e66b64ea8b560e976de9f" title=" " alt="" coords="209,349,437,379"/>
-<area shape="rect" id="node4" href="$da/d23/classAnimator.html#afbd79d90f7e7e9c0633f42f9b4f21534" title=" " alt="" coords="501,165,673,195"/>
-<area shape="rect" id="node9" href="$d2/d62/classGraph.html#ac1a8aaab47e491b4598b0a1d5229168e" title=" " alt="" coords="755,272,919,301"/>
-<area shape="rect" id="node5" href="$dc/d4f/classPoint.html#a76bd8c3dd0132e276bd8dd195e7cc379" title="Return active endpoints." alt="" coords="749,5,926,35"/>
-<area shape="rect" id="node6" href="$dc/d4f/classPoint.html#a56fad8ad50bb477aac9c8993d7ef7861" title="Return active vehicles." alt="" coords="754,59,921,88"/>
-<area shape="rect" id="node7" href="$d2/dda/classRender.html#a620023ac26bf217922fe13c0795b6dc6" title="Add a new vehicle to the scene, from the objectStorage." alt="" coords="757,112,917,141"/>
-<area shape="rect" id="node10" href="$da/d23/classAnimator.html#a60c6d251321a37cf688dd5b0ab77dc32" title=" " alt="" coords="723,165,952,195"/>
-<area shape="rect" id="node11" href="$d2/dda/classRender.html#acb253ac045386dacf67732604c469d01" title="Return true if the editor locked." alt="" coords="748,219,927,248"/>
-<area shape="rect" id="node8" href="$db/d2d/classObjectStorage.html#ac3411dc979b0e6ffe46ee06832786bf4" title=" " alt="" coords="1000,112,1267,141"/>
-<area shape="rect" id="node13" href="$d2/dda/classRender.html#a94ea2db00af10ff43efbb91214cdc169" title="Delete a vehicle by renderID." alt="" coords="499,296,675,325"/>
+<area shape="rect" id="node1" title="The animation update." alt="" coords="5,671,147,700"/>
+<area shape="rect" id="node2" href="$da/d23/classAnimator.html#a859b6b1bff67ed690afd74fedc3f2e3a" title="The animation timer calculator." alt="" coords="223,539,424,568"/>
+<area shape="rect" id="node3" href="$da/d23/classAnimator.html#a8438b6e6faf8f64905b18d636b9e741c" title="Timed automate timed secvencial vehicle adder." alt="" coords="240,592,407,621"/>
+<area shape="rect" id="node12" href="$da/d23/classAnimator.html#a60c6d251321a37cf688dd5b0ab77dc32" title="Random generator." alt="" coords="799,752,1028,781"/>
+<area shape="rect" id="node24" href="$da/d23/classAnimator.html#a9f7000f59ad279f406bb6a71f7c7ceb1" title="Delete the finished vehicles." alt="" coords="195,696,451,725"/>
+<area shape="rect" id="node26" href="$da/d23/classAnimator.html#a46d40c6c22b37fb177f434c60305c209" title="Update the stuck vehicles list." alt="" coords="195,749,452,779"/>
+<area shape="rect" id="node27" href="$da/d23/classAnimator.html#abaf555a4ca5e66b64ea8b560e976de9f" title="The vehicle adding timer calculator." alt="" coords="209,803,437,832"/>
+<area shape="rect" id="node4" href="$da/d23/classAnimator.html#afbd79d90f7e7e9c0633f42f9b4f21534" title="Vehicle adder method." alt="" coords="539,592,711,621"/>
+<area shape="rect" id="node11" href="$d2/d62/classGraph.html#ac1a8aaab47e491b4598b0a1d5229168e" title="Getter for the points by real id." alt="" coords="831,485,995,515"/>
+<area shape="rect" id="node14" href="$da/d23/classAnimator.html#a44376b28d4928c1bcd4ec184d2dadba2" title="Check the start road to collisions." alt="" coords="500,272,751,301"/>
+<area shape="rect" id="node5" href="$dc/d4f/classPoint.html#a76bd8c3dd0132e276bd8dd195e7cc379" title="Return active endpoints." alt="" coords="825,592,1002,621"/>
+<area shape="rect" id="node6" href="$dc/d4f/classPoint.html#a56fad8ad50bb477aac9c8993d7ef7861" title="Return active vehicles." alt="" coords="830,645,997,675"/>
+<area shape="rect" id="node7" href="$d2/dda/classRender.html#a620023ac26bf217922fe13c0795b6dc6" title="Add a new vehicle to the scene, from the objectStorage." alt="" coords="833,699,993,728"/>
+<area shape="rect" id="node13" href="$d2/dda/classRender.html#acb253ac045386dacf67732604c469d01" title="Return true if the editor locked." alt="" coords="824,539,1003,568"/>
+<area shape="rect" id="node8" href="$db/d2d/classObjectStorage.html#ac3411dc979b0e6ffe46ee06832786bf4" title="Create a new copy of the needed 3D vehicle object." alt="" coords="1076,699,1343,728"/>
+<area shape="rect" id="node9" href="$db/d67/classLogger.html#ade9e0898dc8cefe41ca72fa20f1a1706" title="Log an error." alt="" coords="1391,699,1504,728"/>
+<area shape="rect" id="node10" href="$db/d67/classLogger.html#a9797db48ffb0b05ec9bf89bd323a36c8" title="Get the current date and time in String." alt="" coords="1552,699,1748,728"/>
+<area shape="rect" id="node15" href="$d2/dda/classRender.html#a112bb5215d1830cc128b143ca311a581" title="Getter for the RenderableRoads." alt="" coords="809,272,1018,301"/>
+<area shape="rect" id="node16" href="$dc/d4f/classPoint.html#a7e85505a3bf1b36dc40b299909a24e69" title="Getter for the point belongs to this edge." alt="" coords="850,325,977,355"/>
+<area shape="rect" id="node17" href="$d2/d62/classGraph.html#a2331e68848db2517fec0a9f35dbef722" title="Getter for the edges by real ID." alt="" coords="830,379,997,408"/>
+<area shape="rect" id="node18" href="$d8/d1b/classObject3D.html#a7ad3699373d6366da9ac97e332bdd122" title="Getter for the position." alt="" coords="826,432,1001,461"/>
+<area shape="rect" id="node19" href="$d8/d8c/classEdge.html#a01f144d5cf53ca56f7f726f234510527" title="Getter for the render ID." alt="" coords="831,5,996,35"/>
+<area shape="rect" id="node20" href="$dc/d4f/classPoint.html#a272bb4926e29acd4dbedf1c242a1663f" title="Getter for the side of the edge." alt="" coords="853,59,974,88"/>
+<area shape="rect" id="node21" href="$d2/dda/classRender.html#a18d564fc732e2ee29698ff67b0b0c712" title="Getter for the renderableVehicles;." alt="" coords="836,112,991,141"/>
+<area shape="rect" id="node22" href="$d2/dda/classRender.html#a1339ec43286fd53477040702472ad9f9" title="Getter for the renderableVehicles size." alt="" coords="804,165,1023,195"/>
+<area shape="rect" id="node23" href="$d8/d1b/classObject3D.html#a06b85dde4bba3b6e94691fa472dd8bed" title="Getter for the deleted flag." alt="" coords="832,219,995,248"/>
+<area shape="rect" id="node25" href="$d2/dda/classRender.html#a94ea2db00af10ff43efbb91214cdc169" title="Delete a vehicle by renderID." alt="" coords="537,696,713,725"/>
 </map>

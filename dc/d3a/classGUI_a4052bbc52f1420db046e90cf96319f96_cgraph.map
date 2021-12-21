@@ -1,5 +1,5 @@
 <map id="GUI::bind" name="GUI::bind">
-<area shape="rect" id="node1" title="Bind the gui system to the current working window." alt="" coords="5,112,92,141"/>
+<area shape="rect" id="node1" title="Bind the GUI system to the current working window." alt="" coords="5,112,92,141"/>
 <area shape="rect" id="node2" href="$d2/dda/classRender.html#a11891d52761d68679a11c8a9998aab1c" title="Getter for Animator." alt="" coords="180,5,347,35"/>
 <area shape="rect" id="node3" href="$d1/d76/classWorkWindow.html#ab9894e65381a9dff7b3dde269f691130" title="Getter for the event listener." alt="" coords="143,59,383,88"/>
 <area shape="rect" id="node4" href="$d1/d76/classWorkWindow.html#a48d287e770ee80bc48c18900d4bdc841" title="Getter for the object storage." alt="" coords="140,112,387,141"/>

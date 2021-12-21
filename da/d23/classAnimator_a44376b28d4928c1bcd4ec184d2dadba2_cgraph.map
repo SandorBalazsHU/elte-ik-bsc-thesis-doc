@@ -1,0 +1,13 @@
+<map id="Animator::startCollisionDetection" name="Animator::startCollisionDetection">
+<area shape="rect" id="node1" title="Check the start road to collisions." alt="" coords="5,245,256,275"/>
+<area shape="rect" id="node2" href="$d2/dda/classRender.html#a112bb5215d1830cc128b143ca311a581" title="Getter for the RenderableRoads." alt="" coords="309,5,518,35"/>
+<area shape="rect" id="node3" href="$dc/d4f/classPoint.html#a7e85505a3bf1b36dc40b299909a24e69" title="Getter for the point belongs to this edge." alt="" coords="350,59,477,88"/>
+<area shape="rect" id="node4" href="$d2/d62/classGraph.html#a2331e68848db2517fec0a9f35dbef722" title="Getter for the edges by real ID." alt="" coords="330,112,497,141"/>
+<area shape="rect" id="node5" href="$d2/d62/classGraph.html#ac1a8aaab47e491b4598b0a1d5229168e" title="Getter for the points by real id." alt="" coords="331,165,495,195"/>
+<area shape="rect" id="node6" href="$d8/d1b/classObject3D.html#a7ad3699373d6366da9ac97e332bdd122" title="Getter for the position." alt="" coords="326,219,501,248"/>
+<area shape="rect" id="node7" href="$d8/d8c/classEdge.html#a01f144d5cf53ca56f7f726f234510527" title="Getter for the render ID." alt="" coords="331,272,496,301"/>
+<area shape="rect" id="node8" href="$dc/d4f/classPoint.html#a272bb4926e29acd4dbedf1c242a1663f" title="Getter for the side of the edge." alt="" coords="353,325,474,355"/>
+<area shape="rect" id="node9" href="$d2/dda/classRender.html#a18d564fc732e2ee29698ff67b0b0c712" title="Getter for the renderableVehicles;." alt="" coords="336,379,491,408"/>
+<area shape="rect" id="node10" href="$d2/dda/classRender.html#a1339ec43286fd53477040702472ad9f9" title="Getter for the renderableVehicles size." alt="" coords="304,432,523,461"/>
+<area shape="rect" id="node11" href="$d8/d1b/classObject3D.html#a06b85dde4bba3b6e94691fa472dd8bed" title="Getter for the deleted flag." alt="" coords="332,485,495,515"/>
+</map>

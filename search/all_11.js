@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['query_0',['Query',['../db/d7a/BufferObject_8h.html#af7b614633122f51d47371b56d0c1f5a6a66c1b4c7f3dc385b68a9fa903ccd016d',1,'BufferObject.h']]]
+  ['query_0',['Query',['../db/d7a/BufferObject_8h.html#af7b614633122f51d47371b56d0c1f5a6a66c1b4c7f3dc385b68a9fa903ccd016d',1,'BufferObject.h']]],
+  ['quicksave_1',['quickSave',['../dc/d3a/classGUI.html#a38d68ad85b731de23905d2bbc0fde754',1,'GUI']]]
 ];

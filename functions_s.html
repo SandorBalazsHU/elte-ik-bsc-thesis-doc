@@ -29,7 +29,7 @@ MathJax.Hub.Config({
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="app_icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Traffic Simulation<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Traffic Simulation<span id="projectnumber">&#160;1.3</span>
    </div>
    <div id="projectbrief">Three dimensional Traffic Simulation with graph representation and path finder.</div>
   </td>
@@ -93,6 +93,7 @@ $(function() {
 <li>selectedRoads&#160;:&#160;<a class="el" href="dc/d36/classEventListener.html#afcfd99c04a6f24445da404f4ba770225">EventListener</a></li>
 <li>selectedStartPoint&#160;:&#160;<a class="el" href="dc/d3a/classGUI.html#ab21107e991266b58ee5078ed15210577">GUI</a></li>
 <li>selectedVehicle&#160;:&#160;<a class="el" href="dc/d36/classEventListener.html#a2267a6def1c4da28fed317aa507bb3c3">EventListener</a>, <a class="el" href="dc/d3a/classGUI.html#aa50800fc1773c6c04b7b575e744d5eee">GUI</a></li>
+<li>separatedEndPoints&#160;:&#160;<a class="el" href="da/d23/classAnimator.html#addca1b0edb60300890a152c1ad10fe4d">Animator</a></li>
 <li>setAsEndpoint()&#160;:&#160;<a class="el" href="dc/d4f/classPoint.html#ada6e62c8b344347ed6b6887c71f52207">Point</a></li>
 <li>setAsStartPoint()&#160;:&#160;<a class="el" href="dc/d4f/classPoint.html#a7472eafc905e11a3416cadf2fb9c2278">Point</a></li>
 <li>setBreakTexture()&#160;:&#160;<a class="el" href="dd/dbb/classObject3Dvehicle.html#a8e5cd67c57358e719f2fbbfaf5f74047">Object3Dvehicle</a></li>
@@ -100,7 +101,7 @@ $(function() {
 <li>SetCubeTexture()&#160;:&#160;<a class="el" href="d5/d1b/classProgramObject.html#adefaaac9df4dca4cc4503e0dbdbd8f56">ProgramObject</a></li>
 <li>setDependencyID()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#a109b70a92dc247789fd7a71a5ae2f15a">Object3D</a></li>
 <li>setEndpointLock()&#160;:&#160;<a class="el" href="d9/dd9/classObject3Droad.html#ac842ec65b396d8c23c1cfbb8fc6810f8">Object3Droad</a></li>
-<li>setFpsLimit()&#160;:&#160;<a class="el" href="da/d67/classfpsCounter.html#ad6ddd4445ae398f2d6ed9bb7cc067138">fpsCounter</a></li>
+<li>setFpsLimit()&#160;:&#160;<a class="el" href="da/d67/classfpsCounter.html#a52ec6e573547ca0a2a92796758274d00">fpsCounter</a></li>
 <li>setIconID()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#a8e32e6d9d7d21a41f0c201befc2128f1">Object3D</a></li>
 <li>SetIndices()&#160;:&#160;<a class="el" href="d4/d41/classVertexArrayObject.html#a514831dbd5b48881c242481dc7339d06">VertexArrayObject</a></li>
 <li>setLastSave()&#160;:&#160;<a class="el" href="d8/d66/classMapSaver.html#a80dde42617a0662f8fb2888aae3b35a5">MapSaver</a></li>
@@ -113,6 +114,7 @@ $(function() {
 <li>setOpacity()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#ab4bcd843aebe3b377738eeb1e5e90c80">Object3D</a>, <a class="el" href="d9/dd9/classObject3Droad.html#a54a644703be6a440adf61a7e91828c94">Object3Droad</a></li>
 <li>setPosition()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#aede0386d3941b0b6c01a497b5a7c921a">Object3D</a></li>
 <li>setProjection()&#160;:&#160;<a class="el" href="d1/df0/classCamera.html#a3077ffe755b534d3fa32eb8dc8d05a38">Camera</a></li>
+<li>setProperty()&#160;:&#160;<a class="el" href="d7/dbb/classConfigSaver.html#ae0c34f764867cc0e900ad2b6fcd9ca76">ConfigSaver</a></li>
 <li>setProtection()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#aaf0e9d9b67d4c1c97bd57e74ec7664e2">Object3D</a></li>
 <li>setRenderID()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#a5e64f41ffd2f01677b6a32916641b160">Object3D</a>, <a class="el" href="dc/d4f/classPoint.html#a05f0296951989f1ab797f8fbb6d9618e">Point</a></li>
 <li>setRGBAcolor()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#aadbc493c1a8ad43040c2c516f2cf3049">Object3D</a>, <a class="el" href="d9/dd9/classObject3Droad.html#aa0ec2b133be0137e4db914d3457f8c70">Object3Droad</a></li>
@@ -124,6 +126,9 @@ $(function() {
 <li>SetTexture()&#160;:&#160;<a class="el" href="d5/d1b/classProgramObject.html#a2dd6d8c023f76949605d4b7c1981198f">ProgramObject</a></li>
 <li>setTexture()&#160;:&#160;<a class="el" href="d2/dda/classRender.html#a7f89f60375eb895011c083eb557ffd1f">Render</a></li>
 <li>setTextureID()&#160;:&#160;<a class="el" href="d8/d1b/classObject3D.html#a6e71619160abf2b9579c48513a8ce2cc">Object3D</a></li>
+<li>setToBorderless()&#160;:&#160;<a class="el" href="d2/dda/classRender.html#a9299030cebf1879fb3067f3e0864798c">Render</a></li>
+<li>setToFullScreen()&#160;:&#160;<a class="el" href="d2/dda/classRender.html#a335ada6965a5e43cd96d1d420b51dced">Render</a></li>
+<li>setToWindowed()&#160;:&#160;<a class="el" href="d2/dda/classRender.html#a05ae51a7beb834a0c40532a7bab2b3a9">Render</a></li>
 <li>SetUniform()&#160;:&#160;<a class="el" href="d5/d1b/classProgramObject.html#a8348ffbd9fea9067c72d62158ce45665">ProgramObject</a></li>
 <li>setValueByNode()&#160;:&#160;<a class="el" href="da/df6/classreverseMap.html#a43267c2e4a705e9693000b07322afee0">reverseMap</a></li>
 <li>setView()&#160;:&#160;<a class="el" href="d1/df0/classCamera.html#a7bf40735443161c79a40764f837c2033">Camera</a></li>
@@ -175,6 +180,7 @@ $(function() {
 <li>standardRoadLenght&#160;:&#160;<a class="el" href="dc/d23/classVehicle.html#af70f18cf1ca5d17430c38b7fd51aa092">Vehicle</a></li>
 <li>start()&#160;:&#160;<a class="el" href="da/d23/classAnimator.html#a61b0699db2f9066242579aa46cb4f7db">Animator</a>, <a class="el" href="da/d67/classfpsCounter.html#aad004c063f16cc0b88dc047a3a5b0326">fpsCounter</a></li>
 <li>startableVehicles&#160;:&#160;<a class="el" href="dc/d4f/classPoint.html#a0b491f71f4567d13a8fdd02732d73c4a">Point</a></li>
+<li>startCollisionDetection()&#160;:&#160;<a class="el" href="da/d23/classAnimator.html#a44376b28d4928c1bcd4ec184d2dadba2">Animator</a></li>
 <li>startConfiguration&#160;:&#160;<a class="el" href="dc/d4f/classPoint.html#a71b503f32d6603c5adf4173f496ed298">Point</a></li>
 <li>startedVehiclesIndex&#160;:&#160;<a class="el" href="da/d23/classAnimator.html#a0685bb35df7a2b79ae7901ed6967e34c">Animator</a></li>
 <li>startFileLogging()&#160;:&#160;<a class="el" href="db/d67/classLogger.html#af0e2f0bc1168c5298e403a365e004c9d">Logger</a></li>
@@ -194,12 +200,13 @@ $(function() {
 <li>store()&#160;:&#160;<a class="el" href="db/d2d/classObjectStorage.html#ab390cfb7628289621f46fc6c34e2873e">ObjectStorage</a></li>
 <li>stride&#160;:&#160;<a class="el" href="d1/de1/structAttributeData.html#a5bfbdb7315c3985a47ba99d16100978a">AttributeData</a></li>
 <li>stuckTest()&#160;:&#160;<a class="el" href="d9/dd9/classObject3Droad.html#a29a2a283adb33884bd1902e896b5b382">Object3Droad</a></li>
+<li>stuckVehicles&#160;:&#160;<a class="el" href="da/d23/classAnimator.html#a8aa9acc0b1ff407dc8bf27633c317542">Animator</a></li>
 <li>switchToNextRoad()&#160;:&#160;<a class="el" href="dc/d23/classVehicle.html#a455ce89698575541f67377983017f25f">Vehicle</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 14 2021 00:24:56 for Traffic Simulation by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Dec 21 2021 01:49:32 for Traffic Simulation by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>

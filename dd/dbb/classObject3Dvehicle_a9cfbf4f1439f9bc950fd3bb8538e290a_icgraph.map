@@ -1,0 +1,4 @@
+<map id="Object3Dvehicle::copy" name="Object3Dvehicle::copy">
+<area shape="rect" id="node1" title="Copy this object to an other and return it." alt="" coords="231,5,408,35"/>
+<area shape="rect" id="node2" href="$dd/dbb/classObject3Dvehicle.html#af5a14f2fbe67eb622efa2b5986c7c24d" title="Copy this object to an other and return it and set the render ID." alt="" coords="5,5,183,35"/>
+</map>
