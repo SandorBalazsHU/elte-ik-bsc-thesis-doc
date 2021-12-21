@@ -1,5 +1,5 @@
 <map id="ObjectStorage::loadObject" name="ObjectStorage::loadObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,59,212,88"/>
+<area shape="rect" id="node1" title="Start load a 3D Object in parallel thread safe." alt="" coords="5,59,212,88"/>
 <area shape="rect" id="node2" href="$d2/de5/classObjParser.html#a6b9a38f8ea4a8bc8efed4c67824a1c1f" title=" " alt="" coords="260,59,401,88"/>
 <area shape="rect" id="node3" href="$d9/d5e/classMesh.html#aeb7d63b0d2b1d3815e5923068a8c3d8c" title=" " alt="" coords="495,5,632,35"/>
 <area shape="rect" id="node4" href="$d2/de5/classObjParser.html#a78b1fde75da2dcb350cc31a63b4419b5" title=" " alt="" coords="470,59,657,88"/>

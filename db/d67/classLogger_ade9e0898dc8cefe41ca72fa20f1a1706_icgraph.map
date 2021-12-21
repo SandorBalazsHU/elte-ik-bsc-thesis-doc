@@ -1,12 +1,36 @@
 <map id="Logger::error" name="Logger::error">
-<area shape="rect" id="node1" title=" " alt="" coords="643,217,756,246"/>
-<area shape="rect" id="node2" href="$d1/d76/classWorkWindow.html#a64cb0ad14016e2dedbfbcb5dc769a15a" title="OpenGL Context creation." alt="" coords="316,59,595,89"/>
-<area shape="rect" id="node3" href="$d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,217,268,246"/>
-<area shape="rect" id="node4" href="$d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,113,61,142"/>
-<area shape="rect" id="node5" href="$d1/d76/classWorkWindow.html#a86ddbbafefac33ecd082177bf1fd5be5" title="GLEW System start." alt="" coords="361,163,549,193"/>
-<area shape="rect" id="node6" href="$d1/d76/classWorkWindow.html#a77a6eef81dff9e9d77ed330a2efa703b" title="inGUI GUS system start." alt="" coords="362,217,549,246"/>
-<area shape="rect" id="node7" href="$d1/d76/classWorkWindow.html#a227a9d6b91790316347546eca0a81ab7" title="OpenGL Variables setting." alt="" coords="328,270,583,299"/>
-<area shape="rect" id="node8" href="$d1/d76/classWorkWindow.html#a76779ddd0198f3cce3f1ed79e7ee9c32" title="SDL window opening." alt="" coords="332,323,579,353"/>
-<area shape="rect" id="node9" href="$d1/d76/classWorkWindow.html#aa0ce1727ae3c0b3613a0f50508d809ff" title="SDL system initialisation." alt="" coords="374,377,537,406"/>
-<area shape="rect" id="node10" href="$d1/d76/classWorkWindow.html#a27cd31f17d1e1d2ada192323d07ce3ea" title="OpenGL Shader configurationvand compiling." alt="" coords="347,430,564,459"/>
+<area shape="rect" id="node1" title="Log an error." alt="" coords="3133,270,3247,299"/>
+<area shape="rect" id="node2" href="$d1/d76/classWorkWindow.html#a64cb0ad14016e2dedbfbcb5dc769a15a" title="OpenGL Context creation." alt="" coords="1179,374,1457,403"/>
+<area shape="rect" id="node3" href="$d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,246,268,275"/>
+<area shape="rect" id="node4" href="$d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,142,61,171"/>
+<area shape="rect" id="node5" href="$db/d2d/classObjectStorage.html#ab22906dd1d14d3899122e56a57d97a08" title="Create a new copy of the needed 3D object." alt="" coords="2843,476,3061,506"/>
+<area shape="rect" id="node24" href="$db/d2d/classObjectStorage.html#ac3411dc979b0e6ffe46ee06832786bf4" title="Create a new copy of the needed 3D vehicle object." alt="" coords="2819,567,3085,596"/>
+<area shape="rect" id="node29" href="$d1/d76/classWorkWindow.html#a86ddbbafefac33ecd082177bf1fd5be5" title="GLEW System start." alt="" coords="1224,864,1412,894"/>
+<area shape="rect" id="node30" href="$d1/d76/classWorkWindow.html#a77a6eef81dff9e9d77ed330a2efa703b" title="inGUI GUS system start." alt="" coords="1505,64,1692,94"/>
+<area shape="rect" id="node31" href="$d1/d76/classWorkWindow.html#a227a9d6b91790316347546eca0a81ab7" title="OpenGL Variables setting." alt="" coords="316,116,571,146"/>
+<area shape="rect" id="node32" href="$d1/d76/classWorkWindow.html#a76779ddd0198f3cce3f1ed79e7ee9c32" title="SDL window opening." alt="" coords="619,168,865,198"/>
+<area shape="rect" id="node33" href="$d1/d76/classWorkWindow.html#aa0ce1727ae3c0b3613a0f50508d809ff" title="SDL system initialization." alt="" coords="941,219,1103,248"/>
+<area shape="rect" id="node34" href="$d1/d76/classWorkWindow.html#a27cd31f17d1e1d2ada192323d07ce3ea" title="OpenGL Shader configuration compiling." alt="" coords="913,272,1131,302"/>
+<area shape="rect" id="node6" href="$d2/dda/classRender.html#a4ccbfe15c6075248daf93085b0628b71" title="Add new renderable object from the preloaded object storage to the scene." alt="" coords="2581,786,2735,815"/>
+<area shape="rect" id="node20" href="$d2/dda/classRender.html#a15cb317fe3c5084b471fa2585c1e00a8" title="Render the hit spheres for each scene objects." alt="" coords="2059,423,2245,452"/>
+<area shape="rect" id="node21" href="$d2/dda/classRender.html#a0d77292187e580cfe4e32129a29c48b0" title="Render the hit spheres for each scene road objects." alt="" coords="2545,476,2771,506"/>
+<area shape="rect" id="node23" href="$d2/dda/classRender.html#a93015bc85c0a9727305b6ae8f0a3c819" title="Render the hit spheres for each scene vehicle objects." alt="" coords="1740,527,1979,556"/>
+<area shape="rect" id="node7" href="$d2/dda/classRender.html#ad07532bc50a34cf7bb3e261ad34923cf" title="Add dynamically generated road to the scene." alt="" coords="2338,890,2485,919"/>
+<area shape="rect" id="node12" href="$d3/d50/classMapLoader.html#aa0d3bc7012b7c40c7b1396031bab6963" title="Load a map from CSV file." alt="" coords="2066,839,2238,868"/>
+<area shape="rect" id="node15" href="$dc/d3a/classGUI.html#a0774a44c345ee880b5a3014b3193b91b" title="Item list." alt="" coords="1543,735,1654,764"/>
+<area shape="rect" id="node16" href="$d2/dda/classRender.html#a457a9f7e267c10406dc3d59fdac0eacc" title="Initialize the scene." alt="" coords="2340,786,2483,815"/>
+<area shape="rect" id="node8" href="$dc/d3a/classGUI.html#a9dace388dbf579b96d875f4a051d1174" title="The main GUI function." alt="" coords="1273,735,1363,764"/>
+<area shape="rect" id="node9" href="$dc/d3a/classGUI.html#ae63efaa6d38814299c42540a5d4ea00b" title="Render the GUI graphics in the render cycle." alt="" coords="971,638,1073,667"/>
+<area shape="rect" id="node10" href="$d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="679,527,805,556"/>
+<area shape="rect" id="node11" href="$d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="343,478,544,507"/>
+<area shape="rect" id="node13" href="$dc/d3a/classGUI.html#a37dbbb194cd7ee8534ad1a8ffc9f9bc9" title="Description of the opening window." alt="" coords="1786,839,1933,868"/>
+<area shape="rect" id="node14" href="$dc/d3a/classGUI.html#a00ce3e5923599d1b2355915c4ced4bb3" title="The widows opening and closing system." alt="" coords="1517,788,1680,818"/>
+<area shape="rect" id="node17" href="$d2/dda/classRender.html#a79647e82f82b76fbfc01c9dee38e9d1f" title="Clean and renew the map editor." alt="" coords="2095,786,2209,815"/>
+<area shape="rect" id="node19" href="$d2/dda/classRender.html#a795f223a5fe016f5976a6c984082cb0b" title="Composing the renderable scene from the renderableObjects and the renderableRoads storages." alt="" coords="1511,527,1687,556"/>
+<area shape="rect" id="node18" href="$dc/d3a/classGUI.html#a6f729da463e3c45df0046ab651a6781b" title="Window for the new map confirmation." alt="" coords="1746,786,1973,815"/>
+<area shape="rect" id="node22" href="$d2/dda/classRender.html#a96481f1fa33bc227bd5164d371f1667c" title="Render the hit spheres for each scene road objects." alt="" coords="2027,476,2277,506"/>
+<area shape="rect" id="node25" href="$d2/dda/classRender.html#a620023ac26bf217922fe13c0795b6dc6" title="Add a new vehicle to the scene, from the objectStorage." alt="" coords="2578,580,2738,610"/>
+<area shape="rect" id="node26" href="$da/d23/classAnimator.html#afbd79d90f7e7e9c0633f42f9b4f21534" title="Vehicle adder method." alt="" coords="2325,580,2497,610"/>
+<area shape="rect" id="node27" href="$da/d23/classAnimator.html#a8438b6e6faf8f64905b18d636b9e741c" title="Timed automate timed secvencial vehicle adder." alt="" coords="2069,580,2235,610"/>
+<area shape="rect" id="node28" href="$da/d23/classAnimator.html#a54c04824228ced9e0357886c175f2b29" title="The animation update." alt="" coords="1789,580,1930,610"/>
 </map>

@@ -1,31 +1,49 @@
 <map id="GUI::finalise" name="GUI::finalise">
-<area shape="rect" id="node1" title="Finalise the map." alt="" coords="5,325,111,355"/>
-<area shape="rect" id="node2" href="$da/d23/classAnimator.html#a6283fd000297631fd23c046809ab2a6e" title=" " alt="" coords="167,325,309,355"/>
-<area shape="rect" id="node18" href="$d2/d62/classGraph.html#a5146fb373513f099fd6a84ff9c00f18f" title=" " alt="" coords="405,219,572,248"/>
-<area shape="rect" id="node21" href="$d2/d62/classGraph.html#adb3307579cec698818874d1379f61116" title=" " alt="" coords="403,485,575,515"/>
-<area shape="rect" id="node23" href="$da/d23/classAnimator.html#a39f74c6abaf3b0b243389f14cfc139a0" title=" " alt="" coords="159,429,317,459"/>
-<area shape="rect" id="node24" href="$d2/dda/classRender.html#af57fd27e7f2a47daa442b6f19dbbd9f8" title="Lock the editor functions." alt="" coords="413,165,564,195"/>
-<area shape="rect" id="node3" href="$d2/d62/classGraph.html#a7b671a20fab7f254a8c6813144e8509a" title=" " alt="" coords="399,325,578,355"/>
-<area shape="rect" id="node19" href="$d1/d76/classWorkWindow.html#a48d287e770ee80bc48c18900d4bdc841" title="Getter for the object storage." alt="" coords="365,272,612,301"/>
-<area shape="rect" id="node20" href="$d2/d62/classGraph.html#ac1a8aaab47e491b4598b0a1d5229168e" title=" " alt="" coords="407,379,571,408"/>
-<area shape="rect" id="node22" href="$d2/dda/classRender.html#a7814582679dfd24dbe0cd015125031f2" title="Getter for the working window pointer." alt="" coords="380,432,597,461"/>
-<area shape="rect" id="node4" href="$d2/d62/classGraph.html#afb4d6a03caff5778bdf58268039403a8" title=" " alt="" coords="715,480,845,509"/>
-<area shape="rect" id="node9" href="$d2/d62/classGraph.html#adade8dbb7680ec62a671faeebdccfa52" title=" " alt="" coords="731,219,829,248"/>
-<area shape="rect" id="node14" href="$d2/d62/classGraph.html#a9e56e9a4b8dbb23d194c7d5943754482" title=" " alt="" coords="707,376,853,405"/>
-<area shape="rect" id="node16" href="$d2/d62/classGraph.html#afdffad1c339076cb48acc69b3b150a3c" title=" " alt="" coords="721,272,839,301"/>
-<area shape="rect" id="node5" href="$d2/dda/classRender.html#a112bb5215d1830cc128b143ca311a581" title="Getter for the RenderableRoads." alt="" coords="979,325,1189,355"/>
-<area shape="rect" id="node6" href="$d2/dda/classRender.html#a96812a57fba2dc97089021cc23a01baa" title="Getter for the renderableRoads size." alt="" coords="948,432,1220,461"/>
-<area shape="rect" id="node7" href="$dc/d4f/classPoint.html#a2e45c045d624d85fb10d923953f3cc88" title="Getter for the point id." alt="" coords="1033,485,1135,515"/>
-<area shape="rect" id="node8" href="$d9/dd9/classObject3Droad.html#a856af5392c340e1d24a7fbdca3f7e306" title=" " alt="" coords="967,539,1201,568"/>
-<area shape="rect" id="node10" href="$d8/d8c/classEdge.html#a1e60d436c381fd999e2a26402936ee50" title=" " alt="" coords="1003,165,1165,195"/>
-<area shape="rect" id="node11" href="$d8/d8c/classEdge.html#a1a054503d051669070d8dae325dcca49" title=" " alt="" coords="1003,219,1165,248"/>
-<area shape="rect" id="node12" href="$d8/d1b/classObject3D.html#aa80515b56146b062e55d91c01cbbba02" title=" " alt="" coords="1004,59,1164,88"/>
-<area shape="rect" id="node13" href="$d2/dda/classRender.html#ac0679c37e0376133a5c26d3728a3f28c" title="Get scene preloaded object from the scene render storage." alt="" coords="1010,112,1158,141"/>
-<area shape="rect" id="node15" href="$d2/dda/classRender.html#a0a8f62e00ceb8bc5308b9d9806e79baa" title="Update a dynamicly generated object status by dynamicRenderID." alt="" coords="967,379,1201,408"/>
-<area shape="rect" id="node17" href="$d8/d1b/classObject3D.html#a81208e358dc0d4e58677075b2b313151" title=" " alt="" coords="997,272,1171,301"/>
-<area shape="rect" id="node25" href="$d1/d76/classWorkWindow.html#ab9894e65381a9dff7b3dde269f691130" title="Getter for the event listener." alt="" coords="660,112,900,141"/>
-<area shape="rect" id="node26" href="$dc/d36/classEventListener.html#ae30ec2f0fafeb13fcc2f73b0e0af1b1a" title=" " alt="" coords="683,165,877,195"/>
-<area shape="rect" id="node27" href="$d9/dd9/classObject3Droad.html#a0f132e0e887d1a0631443d5c1ea39d10" title=" " alt="" coords="681,59,879,88"/>
-<area shape="rect" id="node28" href="$d8/d1b/classObject3D.html#ab4ac04d381ed34ad82263dac4a759d9c" title=" " alt="" coords="989,5,1179,35"/>
-<area shape="rect" id="node29" href="$d8/d1b/classObject3D.html#a35a0a30f2f4db7de497667fa164970c7" title=" " alt="" coords="1268,5,1451,35"/>
+<area shape="rect" id="node1" title="Finalize the map." alt="" coords="5,488,111,517"/>
+<area shape="rect" id="node2" href="$da/d23/classAnimator.html#a6283fd000297631fd23c046809ab2a6e" title="Prepare the graph representation and all variable for the animation and the vehicle path finding." alt="" coords="167,428,309,457"/>
+<area shape="rect" id="node36" href="$d2/d62/classGraph.html#a5146fb373513f099fd6a84ff9c00f18f" title="Getter for the end point list." alt="" coords="421,241,588,271"/>
+<area shape="rect" id="node39" href="$d2/d62/classGraph.html#adb3307579cec698818874d1379f61116" title="Getter for the start point list." alt="" coords="419,561,591,591"/>
+<area shape="rect" id="node41" href="$da/d23/classAnimator.html#a39f74c6abaf3b0b243389f14cfc139a0" title="Getter for the generated graph." alt="" coords="159,540,317,569"/>
+<area shape="rect" id="node42" href="$d2/dda/classRender.html#af57fd27e7f2a47daa442b6f19dbbd9f8" title="Lock the editor functions." alt="" coords="429,641,580,671"/>
+<area shape="rect" id="node3" href="$da/d23/classAnimator.html#a6c246bc49962b53000996457179dc8ec" title="List the separated endpoints." alt="" coords="365,401,644,431"/>
+<area shape="rect" id="node21" href="$d2/d62/classGraph.html#a7b671a20fab7f254a8c6813144e8509a" title="Generate the graph by the renderable roads." alt="" coords="415,455,594,484"/>
+<area shape="rect" id="node37" href="$d1/d76/classWorkWindow.html#a48d287e770ee80bc48c18900d4bdc841" title="Getter for the object storage." alt="" coords="381,508,628,537"/>
+<area shape="rect" id="node38" href="$d2/d62/classGraph.html#ac1a8aaab47e491b4598b0a1d5229168e" title="Getter for the points by real id." alt="" coords="423,295,587,324"/>
+<area shape="rect" id="node40" href="$d2/dda/classRender.html#a7814582679dfd24dbe0cd015125031f2" title="Getter for the working window pointer." alt="" coords="396,348,613,377"/>
+<area shape="rect" id="node4" href="$d2/d62/classGraph.html#a7a81ffe128066649d17bfedfdce4f61b" title="Generate Adjacency matrix from the graph and the Dijkstra object." alt="" coords="718,189,906,219"/>
+<area shape="rect" id="node19" href="$d2/d62/classGraph.html#a2903252e0bf7c8fdeec324416c5a314d" title="Generate path matrix from the Dijkstra object results." alt="" coords="749,269,875,299"/>
+<area shape="rect" id="node5" href="$d4/d0d/classDijkstra.html#a1fffaad30de6a2df31f006a5cc14f281" title="Adding a new double edge to the matrix." alt="" coords="1017,136,1215,165"/>
+<area shape="rect" id="node6" href="$d4/d0d/classDijkstra.html#adb2c14d1e9bd1acf6837d556e93124f8" title="Run the algorithm and generate the result vector." alt="" coords="1064,189,1168,219"/>
+<area shape="rect" id="node7" href="$da/df6/classreverseMap.html#a24286f902098d8dfb3c75b1b90dbe3ed" title="The map is empty?" alt="" coords="1385,216,1540,245"/>
+<area shape="rect" id="node8" href="$da/df6/classreverseMap.html#a89377e8ccfe15b57a65b8c98283b46ae" title="Getter for a value by node." alt="" coords="1347,269,1578,299"/>
+<area shape="rect" id="node9" href="$da/df6/classreverseMap.html#afb5bccbeb7d2470af79e83c95d3143c3" title="Insert an instance to the reverse map." alt="" coords="1979,112,2129,141"/>
+<area shape="rect" id="node10" href="$da/df6/classreverseMap.html#a31413e4be773f381dc5a25c8f2b8e27a" title="The node is in the map?" alt="" coords="1395,376,1531,405"/>
+<area shape="rect" id="node11" href="$d4/d0d/classDijkstra.html#a1cd88211356f3cf51d65c5b9974bf766" title="Getter for the ready state." alt="" coords="1393,5,1533,35"/>
+<area shape="rect" id="node12" href="$d4/d0d/classDijkstra.html#a1ca6b9529c556d63de9c639b5db397f4" title="Preparation." alt="" coords="1405,112,1520,141"/>
+<area shape="rect" id="node15" href="$da/df6/classreverseMap.html#aacb82730a3084a65ff8517764081aab6" title="Remove the minimum value element and return it." alt="" coords="1300,59,1625,88"/>
+<area shape="rect" id="node17" href="$da/df6/classreverseMap.html#a43267c2e4a705e9693000b07322afee0" title="Set a value by node." alt="" coords="1347,323,1578,352"/>
+<area shape="rect" id="node13" href="$d4/d0d/classDijkstra.html#a5733ffbfc5880dd0cd02b51cf923b1fe" title="Initialize from." alt="" coords="1732,112,1872,141"/>
+<area shape="rect" id="node14" href="$d4/d0d/classDijkstra.html#a5c490b46baa19c824147b8d12b9e65fb" title="Initialize the next node." alt="" coords="1735,59,1869,88"/>
+<area shape="rect" id="node16" href="$da/df6/classreverseMap.html#a9821e22eaa276d4b2c7bc091c4dccfda" title="Erase safely an element." alt="" coords="1709,5,1895,35"/>
+<area shape="rect" id="node18" href="$da/df6/classreverseMap.html#af427d9cfd0a299e148b129abf3756022" title="Change the index of an element." alt="" coords="1673,323,1931,352"/>
+<area shape="rect" id="node20" href="$d4/d0d/classDijkstra.html#ac41955ffe6d55cfeb7646e068c18d1ac" title="Getter for the start node." alt="" coords="1028,243,1204,272"/>
+<area shape="rect" id="node22" href="$d2/d62/classGraph.html#a82feb8dcf574feaeb926e9efc9077884" title="initialize the graph." alt="" coords="747,455,877,484"/>
+<area shape="rect" id="node27" href="$d2/d62/classGraph.html#adade8dbb7680ec62a671faeebdccfa52" title="Join the multiple points." alt="" coords="763,561,861,591"/>
+<area shape="rect" id="node32" href="$d2/d62/classGraph.html#a9e56e9a4b8dbb23d194c7d5943754482" title="Lock the roads." alt="" coords="739,351,885,380"/>
+<area shape="rect" id="node34" href="$d2/d62/classGraph.html#afdffad1c339076cb48acc69b3b150a3c" title="Rebind the real ID&#45;s." alt="" coords="753,615,871,644"/>
+<area shape="rect" id="node23" href="$d2/dda/classRender.html#a112bb5215d1830cc128b143ca311a581" title="Getter for the RenderableRoads." alt="" coords="1011,509,1221,539"/>
+<area shape="rect" id="node24" href="$d2/dda/classRender.html#a96812a57fba2dc97089021cc23a01baa" title="Getter for the renderableRoads size." alt="" coords="980,349,1252,379"/>
+<area shape="rect" id="node25" href="$dc/d4f/classPoint.html#a2e45c045d624d85fb10d923953f3cc88" title="Getter for the point id." alt="" coords="1065,456,1167,485"/>
+<area shape="rect" id="node26" href="$d9/dd9/classObject3Droad.html#a856af5392c340e1d24a7fbdca3f7e306" title="Calculate the road exact length." alt="" coords="999,403,1233,432"/>
+<area shape="rect" id="node28" href="$d8/d8c/classEdge.html#a1e60d436c381fd999e2a26402936ee50" title="Getter for the Endpoint A vector ID." alt="" coords="1035,669,1197,699"/>
+<area shape="rect" id="node29" href="$d8/d8c/classEdge.html#a1a054503d051669070d8dae325dcca49" title="Getter for the Endpoint B vector ID." alt="" coords="1035,563,1197,592"/>
+<area shape="rect" id="node30" href="$d8/d1b/classObject3D.html#aa80515b56146b062e55d91c01cbbba02" title="Getter for the name." alt="" coords="1036,616,1196,645"/>
+<area shape="rect" id="node31" href="$d2/dda/classRender.html#ac0679c37e0376133a5c26d3728a3f28c" title="Get scene preloaded object from the scene render storage." alt="" coords="1042,776,1190,805"/>
+<area shape="rect" id="node33" href="$d2/dda/classRender.html#a0a8f62e00ceb8bc5308b9d9806e79baa" title="Update a dynamically generated object status by dynamicRenderID." alt="" coords="999,296,1233,325"/>
+<area shape="rect" id="node35" href="$d8/d1b/classObject3D.html#a81208e358dc0d4e58677075b2b313151" title="Setter for the model ID." alt="" coords="1029,723,1203,752"/>
+<area shape="rect" id="node43" href="$d1/d76/classWorkWindow.html#ab9894e65381a9dff7b3dde269f691130" title="Getter for the event listener." alt="" coords="692,721,932,751"/>
+<area shape="rect" id="node44" href="$dc/d36/classEventListener.html#ae30ec2f0fafeb13fcc2f73b0e0af1b1a" title="Locking the editor events." alt="" coords="715,668,909,697"/>
+<area shape="rect" id="node45" href="$d9/dd9/classObject3Droad.html#a0f132e0e887d1a0631443d5c1ea39d10" title="Lock the editable mode." alt="" coords="713,776,911,805"/>
+<area shape="rect" id="node46" href="$d8/d1b/classObject3D.html#ab4ac04d381ed34ad82263dac4a759d9c" title="Set the selectable flag." alt="" coords="1021,829,1211,859"/>
+<area shape="rect" id="node47" href="$d8/d1b/classObject3D.html#a35a0a30f2f4db7de497667fa164970c7" title="Getter for the selectable flag." alt="" coords="1371,829,1554,859"/>
 </map>

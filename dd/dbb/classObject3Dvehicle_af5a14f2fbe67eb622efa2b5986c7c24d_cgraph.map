@@ -1,4 +1,6 @@
 <map id="Object3Dvehicle::copy" name="Object3Dvehicle::copy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,29,183,59"/>
-<area shape="rect" id="node2" href="$d8/d1b/classObject3D.html#a5e64f41ffd2f01677b6a32916641b160" title=" " alt="" coords="231,29,413,59"/>
+<area shape="rect" id="node1" title="Copy this object to an other and return it and set the render ID." alt="" coords="5,32,183,61"/>
+<area shape="rect" id="node2" href="$dd/dbb/classObject3Dvehicle.html#a9cfbf4f1439f9bc950fd3bb8538e290a" title="Copy this object to an other and return it." alt="" coords="233,5,411,35"/>
+<area shape="rect" id="node4" href="$d8/d1b/classObject3D.html#a5e64f41ffd2f01677b6a32916641b160" title="The object current renderID from the render." alt="" coords="231,59,413,88"/>
+<area shape="rect" id="node3" href="$dd/dbb/classObject3Dvehicle.html#aac0a06338d37245e11bc8f0ee5417e18" title="Constructor for the empty Vehicle object." alt="" coords="461,5,720,35"/>
 </map>

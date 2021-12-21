@@ -1,0 +1,8 @@
+<map id="Vehicle::collisionTest" name="Vehicle::collisionTest">
+<area shape="rect" id="node1" title="Check the road collision." alt="" coords="5,112,173,141"/>
+<area shape="rect" id="node2" href="$d2/dda/classRender.html#a112bb5215d1830cc128b143ca311a581" title="Getter for the RenderableRoads." alt="" coords="226,5,435,35"/>
+<area shape="rect" id="node3" href="$d8/d1b/classObject3D.html#a7ad3699373d6366da9ac97e332bdd122" title="Getter for the position." alt="" coords="243,59,418,88"/>
+<area shape="rect" id="node4" href="$d2/dda/classRender.html#a18d564fc732e2ee29698ff67b0b0c712" title="Getter for the renderableVehicles;." alt="" coords="253,112,408,141"/>
+<area shape="rect" id="node5" href="$d2/dda/classRender.html#a1339ec43286fd53477040702472ad9f9" title="Getter for the renderableVehicles size." alt="" coords="221,165,440,195"/>
+<area shape="rect" id="node6" href="$d8/d1b/classObject3D.html#a06b85dde4bba3b6e94691fa472dd8bed" title="Getter for the deleted flag." alt="" coords="249,219,412,248"/>
+</map>

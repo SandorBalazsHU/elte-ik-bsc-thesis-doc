@@ -1,5 +1,7 @@
 <map id="GUI::itemList" name="GUI::itemList">
-<area shape="rect" id="node1" title="Item list." alt="" coords="5,5,116,35"/>
-<area shape="rect" id="node2" href="$d2/dda/classRender.html#a4ccbfe15c6075248daf93085b0628b71" title="Add new renderable object from the preloaded object storage to the scene." alt="" coords="164,5,317,35"/>
-<area shape="rect" id="node3" href="$db/d2d/classObjectStorage.html#ab22906dd1d14d3899122e56a57d97a08" title=" " alt="" coords="365,5,584,35"/>
+<area shape="rect" id="node1" title="Item list." alt="" coords="5,29,116,59"/>
+<area shape="rect" id="node2" href="$d2/dda/classRender.html#a4ccbfe15c6075248daf93085b0628b71" title="Add new renderable object from the preloaded object storage to the scene." alt="" coords="164,29,317,59"/>
+<area shape="rect" id="node3" href="$db/d2d/classObjectStorage.html#ab22906dd1d14d3899122e56a57d97a08" title="Create a new copy of the needed 3D object." alt="" coords="365,29,584,59"/>
+<area shape="rect" id="node4" href="$db/d67/classLogger.html#ade9e0898dc8cefe41ca72fa20f1a1706" title="Log an error." alt="" coords="632,29,745,59"/>
+<area shape="rect" id="node5" href="$db/d67/classLogger.html#a9797db48ffb0b05ec9bf89bd323a36c8" title="Get the current date and time in String." alt="" coords="793,29,989,59"/>
 </map>

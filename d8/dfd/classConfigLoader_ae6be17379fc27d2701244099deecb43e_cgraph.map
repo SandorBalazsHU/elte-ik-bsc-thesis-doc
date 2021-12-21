@@ -1,0 +1,7 @@
+<map id="ConfigLoader::loadConfig" name="ConfigLoader::loadConfig">
+<area shape="rect" id="node1" title="Load and apply the configurations." alt="" coords="5,85,208,115"/>
+<area shape="rect" id="node2" href="$d8/dfd/classConfigLoader.html#a162b56f150ed7f0fbf602bd26c7bb100" title="Read and parse the configuration CSV file." alt="" coords="258,5,450,35"/>
+<area shape="rect" id="node3" href="$d2/dda/classRender.html#a9299030cebf1879fb3067f3e0864798c" title="Setter for borderless screen mode." alt="" coords="256,59,452,88"/>
+<area shape="rect" id="node4" href="$d2/dda/classRender.html#a335ada6965a5e43cd96d1d420b51dced" title="Setter to full screen window mode." alt="" coords="257,112,451,141"/>
+<area shape="rect" id="node5" href="$d2/dda/classRender.html#a05ae51a7beb834a0c40532a7bab2b3a9" title="Setter for windowed screen mode." alt="" coords="257,165,451,195"/>
+</map>

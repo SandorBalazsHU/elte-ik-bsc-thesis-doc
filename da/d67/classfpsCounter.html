@@ -29,7 +29,7 @@ MathJax.Hub.Config({
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="../../app_icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Traffic Simulation<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Traffic Simulation<span id="projectnumber">&#160;1.3</span>
    </div>
    <div id="projectbrief">Three dimensional Traffic Simulation with graph representation and path finder.</div>
   </td>
@@ -72,14 +72,13 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">fpsCounter Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>FPS counter, logger and limiter static class.  
+ <a href="../../da/d67/classfpsCounter.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d2/d06/fpsCounter_8h_source.html">fpsCounter.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -89,72 +88,90 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../d1/d82/classfpsCounter__coll__graph.png" border="0" usemap="#afpsCounter_coll__map" alt="Collaboration graph"/></div>
 <map name="afpsCounter_coll__map" id="afpsCounter_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,208,455"/>
+<area shape="rect" title="FPS counter, logger and limiter static class." alt="" coords="5,5,208,455"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a02e48119b0b5c4de909fb26e495917c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a02e48119b0b5c4de909fb26e495917c1">bind</a> ()</td></tr>
-<tr class="separator:a02e48119b0b5c4de909fb26e495917c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad004c063f16cc0b88dc047a3a5b0326"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aad004c063f16cc0b88dc047a3a5b0326">start</a> ()</td></tr>
-<tr class="separator:aad004c063f16cc0b88dc047a3a5b0326"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e23a7ffe91a6070005fab63bf535019"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a3e23a7ffe91a6070005fab63bf535019">stop</a> ()</td></tr>
-<tr class="separator:a3e23a7ffe91a6070005fab63bf535019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add5fba2d69d73e46181e00e1f0a79221"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#add5fba2d69d73e46181e00e1f0a79221">fpsLimiterOn</a> ()</td></tr>
-<tr class="separator:add5fba2d69d73e46181e00e1f0a79221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7610addf69dfe527654c56bdbf06528"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ae7610addf69dfe527654c56bdbf06528">fpsLimiterOff</a> ()</td></tr>
-<tr class="separator:ae7610addf69dfe527654c56bdbf06528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ddd4445ae398f2d6ed9bb7cc067138"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ad6ddd4445ae398f2d6ed9bb7cc067138">setFpsLimit</a> (float limit)</td></tr>
-<tr class="separator:ad6ddd4445ae398f2d6ed9bb7cc067138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9631ed19ec97515aba03a89f830099ba"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a9631ed19ec97515aba03a89f830099ba">getCurrentFPS</a> ()</td></tr>
-<tr class="separator:a9631ed19ec97515aba03a89f830099ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc660c05b8a9748e5d49c71ea9f2457b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#abc660c05b8a9748e5d49c71ea9f2457b">getAverageFPS</a> ()</td></tr>
-<tr class="separator:abc660c05b8a9748e5d49c71ea9f2457b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ab617ddc4266074ad0a9e929615ef6d29"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ab617ddc4266074ad0a9e929615ef6d29">fpsLog</a> [100] = { 0.0f }</td></tr>
-<tr class="separator:ab617ddc4266074ad0a9e929615ef6d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aeae98296ceb16a5b53f073fa1f638c73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aeae98296ceb16a5b53f073fa1f638c73">fpsCounter</a> ()</td></tr>
-<tr class="separator:aeae98296ceb16a5b53f073fa1f638c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9c5230eb9a4c76fabbfc2bc26850765"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ad9c5230eb9a4c76fabbfc2bc26850765">~fpsCounter</a> ()</td></tr>
-<tr class="separator:ad9c5230eb9a4c76fabbfc2bc26850765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a350705bebf2570b4bd3014bfd3ad2b14"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a350705bebf2570b4bd3014bfd3ad2b14">fpsLimiter</a> (float limit)</td></tr>
-<tr class="separator:a350705bebf2570b4bd3014bfd3ad2b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca693a136036695b2f2fd1a698fc8d2"><td class="memItemLeft" align="right" valign="top">static Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#acca693a136036695b2f2fd1a698fc8d2">fpsTimerCallback</a> (Uint32 interval, void *data)</td></tr>
-<tr class="separator:acca693a136036695b2f2fd1a698fc8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:af118db1220ff7f0d6d34706f594e0ce1"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#af118db1220ff7f0d6d34706f594e0ce1">averageFPSupdateTime</a> = 500</td></tr>
+<tr class="memdesc:af118db1220ff7f0d6d34706f594e0ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel FPS counter update interval.  <a href="../../da/d67/classfpsCounter.html#af118db1220ff7f0d6d34706f594e0ce1">More...</a><br /></td></tr>
 <tr class="separator:af118db1220ff7f0d6d34706f594e0ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Traffic Simulation</h2></td></tr>
+<tr class="memitem:ab617ddc4266074ad0a9e929615ef6d29"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ab617ddc4266074ad0a9e929615ef6d29">fpsLog</a> [100] = { 0.0f }</td></tr>
+<tr class="memdesc:ab617ddc4266074ad0a9e929615ef6d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FPS Log array.  <a href="../../da/d67/classfpsCounter.html#ab617ddc4266074ad0a9e929615ef6d29">More...</a><br /></td></tr>
+<tr class="separator:ab617ddc4266074ad0a9e929615ef6d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697e8c275491ee974f9364b3d68aac51"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a697e8c275491ee974f9364b3d68aac51">fpsLogCounter</a> = 0</td></tr>
+<tr class="memdesc:a697e8c275491ee974f9364b3d68aac51"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FPS log index.  <a href="../../da/d67/classfpsCounter.html#a697e8c275491ee974f9364b3d68aac51">More...</a><br /></td></tr>
 <tr class="separator:a697e8c275491ee974f9364b3d68aac51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa965ea0197ae184531fe4df3469aedbf"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aa965ea0197ae184531fe4df3469aedbf">currentFPS</a></td></tr>
+<tr class="memdesc:aa965ea0197ae184531fe4df3469aedbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current FPS.  <a href="../../da/d67/classfpsCounter.html#aa965ea0197ae184531fe4df3469aedbf">More...</a><br /></td></tr>
 <tr class="separator:aa965ea0197ae184531fe4df3469aedbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40ba37e54963c5be2a20cd8615c9af2f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a40ba37e54963c5be2a20cd8615c9af2f">averageFPS</a></td></tr>
+<tr class="memdesc:a40ba37e54963c5be2a20cd8615c9af2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The average FPS.  <a href="../../da/d67/classfpsCounter.html#a40ba37e54963c5be2a20cd8615c9af2f">More...</a><br /></td></tr>
 <tr class="separator:a40ba37e54963c5be2a20cd8615c9af2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094477d068139dd1377ebd87cbce00ba"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a094477d068139dd1377ebd87cbce00ba">fpsLimit</a> = 60.0f</td></tr>
+<tr class="memdesc:a094477d068139dd1377ebd87cbce00ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current FPS limit.  <a href="../../da/d67/classfpsCounter.html#a094477d068139dd1377ebd87cbce00ba">More...</a><br /></td></tr>
 <tr class="separator:a094477d068139dd1377ebd87cbce00ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a6a56c82faf1e8a15723eaaa6f0963b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a5a6a56c82faf1e8a15723eaaa6f0963b">isLimiterOn</a> = false</td></tr>
+<tr class="memdesc:a5a6a56c82faf1e8a15723eaaa6f0963b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FPS limiter switch.  <a href="../../da/d67/classfpsCounter.html#a5a6a56c82faf1e8a15723eaaa6f0963b">More...</a><br /></td></tr>
 <tr class="separator:a5a6a56c82faf1e8a15723eaaa6f0963b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9f17d5845d2c4695e7466cb01436657"><td class="memItemLeft" align="right" valign="top">static Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aa9f17d5845d2c4695e7466cb01436657">limiterCurrentTime</a></td></tr>
+<tr class="memdesc:aa9f17d5845d2c4695e7466cb01436657"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current time for the limiter delay.  <a href="../../da/d67/classfpsCounter.html#aa9f17d5845d2c4695e7466cb01436657">More...</a><br /></td></tr>
 <tr class="separator:aa9f17d5845d2c4695e7466cb01436657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab742fdebca0c79c4580962bf88c944a1"><td class="memItemLeft" align="right" valign="top">static Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ab742fdebca0c79c4580962bf88c944a1">currentTime</a></td></tr>
+<tr class="memdesc:ab742fdebca0c79c4580962bf88c944a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current time.  <a href="../../da/d67/classfpsCounter.html#ab742fdebca0c79c4580962bf88c944a1">More...</a><br /></td></tr>
 <tr class="separator:ab742fdebca0c79c4580962bf88c944a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acae3c3d3b23c10ac8c892a673455edf0"><td class="memItemLeft" align="right" valign="top">static Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#acae3c3d3b23c10ac8c892a673455edf0">previousTime</a></td></tr>
+<tr class="memdesc:acae3c3d3b23c10ac8c892a673455edf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The previous saved time.  <a href="../../da/d67/classfpsCounter.html#acae3c3d3b23c10ac8c892a673455edf0">More...</a><br /></td></tr>
 <tr class="separator:acae3c3d3b23c10ac8c892a673455edf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3203c0f5998e2bff4b7861a012c7cb44"><td class="memItemLeft" align="right" valign="top">static SDL_atomic_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a3203c0f5998e2bff4b7861a012c7cb44">atomicFrameCounter</a></td></tr>
+<tr class="memdesc:a3203c0f5998e2bff4b7861a012c7cb44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The atomic frame counter.  <a href="../../da/d67/classfpsCounter.html#a3203c0f5998e2bff4b7861a012c7cb44">More...</a><br /></td></tr>
 <tr class="separator:a3203c0f5998e2bff4b7861a012c7cb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e48119b0b5c4de909fb26e495917c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a02e48119b0b5c4de909fb26e495917c1">bind</a> ()</td></tr>
+<tr class="memdesc:a02e48119b0b5c4de909fb26e495917c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the class.  <a href="../../da/d67/classfpsCounter.html#a02e48119b0b5c4de909fb26e495917c1">More...</a><br /></td></tr>
+<tr class="separator:a02e48119b0b5c4de909fb26e495917c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad004c063f16cc0b88dc047a3a5b0326"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aad004c063f16cc0b88dc047a3a5b0326">start</a> ()</td></tr>
+<tr class="memdesc:aad004c063f16cc0b88dc047a3a5b0326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start FPS counting.  <a href="../../da/d67/classfpsCounter.html#aad004c063f16cc0b88dc047a3a5b0326">More...</a><br /></td></tr>
+<tr class="separator:aad004c063f16cc0b88dc047a3a5b0326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e23a7ffe91a6070005fab63bf535019"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a3e23a7ffe91a6070005fab63bf535019">stop</a> ()</td></tr>
+<tr class="memdesc:a3e23a7ffe91a6070005fab63bf535019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the counter.  <a href="../../da/d67/classfpsCounter.html#a3e23a7ffe91a6070005fab63bf535019">More...</a><br /></td></tr>
+<tr class="separator:a3e23a7ffe91a6070005fab63bf535019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b28590c9c8385639c15d2e715e2c09"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ac8b28590c9c8385639c15d2e715e2c09">fpsLimiterOn</a> ()</td></tr>
+<tr class="memdesc:ac8b28590c9c8385639c15d2e715e2c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS Limiter ON.  <a href="../../da/d67/classfpsCounter.html#ac8b28590c9c8385639c15d2e715e2c09">More...</a><br /></td></tr>
+<tr class="separator:ac8b28590c9c8385639c15d2e715e2c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807adf44db118e90e6fb830b795616c9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a807adf44db118e90e6fb830b795616c9">fpsLimiterOff</a> ()</td></tr>
+<tr class="memdesc:a807adf44db118e90e6fb830b795616c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS Limiter OFF.  <a href="../../da/d67/classfpsCounter.html#a807adf44db118e90e6fb830b795616c9">More...</a><br /></td></tr>
+<tr class="separator:a807adf44db118e90e6fb830b795616c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ec6e573547ca0a2a92796758274d00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a52ec6e573547ca0a2a92796758274d00">setFpsLimit</a> (float limit)</td></tr>
+<tr class="memdesc:a52ec6e573547ca0a2a92796758274d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set FPS limiter.  <a href="../../da/d67/classfpsCounter.html#a52ec6e573547ca0a2a92796758274d00">More...</a><br /></td></tr>
+<tr class="separator:a52ec6e573547ca0a2a92796758274d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8493e1cd5f7f919a311fa539dfa5c66a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a8493e1cd5f7f919a311fa539dfa5c66a">getCurrentFPS</a> ()</td></tr>
+<tr class="memdesc:a8493e1cd5f7f919a311fa539dfa5c66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for current FPS.  <a href="../../da/d67/classfpsCounter.html#a8493e1cd5f7f919a311fa539dfa5c66a">More...</a><br /></td></tr>
+<tr class="separator:a8493e1cd5f7f919a311fa539dfa5c66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9965206d185c8beb7cf311177442184a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a9965206d185c8beb7cf311177442184a">getAverageFPS</a> ()</td></tr>
+<tr class="memdesc:a9965206d185c8beb7cf311177442184a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for average FPS.  <a href="../../da/d67/classfpsCounter.html#a9965206d185c8beb7cf311177442184a">More...</a><br /></td></tr>
+<tr class="separator:a9965206d185c8beb7cf311177442184a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae98296ceb16a5b53f073fa1f638c73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#aeae98296ceb16a5b53f073fa1f638c73">fpsCounter</a> ()</td></tr>
+<tr class="memdesc:aeae98296ceb16a5b53f073fa1f638c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private constructor for a static class.  <a href="../../da/d67/classfpsCounter.html#aeae98296ceb16a5b53f073fa1f638c73">More...</a><br /></td></tr>
+<tr class="separator:aeae98296ceb16a5b53f073fa1f638c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c5230eb9a4c76fabbfc2bc26850765"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#ad9c5230eb9a4c76fabbfc2bc26850765">~fpsCounter</a> ()</td></tr>
+<tr class="memdesc:ad9c5230eb9a4c76fabbfc2bc26850765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private destructor for a static class.  <a href="../../da/d67/classfpsCounter.html#ad9c5230eb9a4c76fabbfc2bc26850765">More...</a><br /></td></tr>
+<tr class="separator:ad9c5230eb9a4c76fabbfc2bc26850765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a350705bebf2570b4bd3014bfd3ad2b14"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#a350705bebf2570b4bd3014bfd3ad2b14">fpsLimiter</a> (float limit)</td></tr>
+<tr class="memdesc:a350705bebf2570b4bd3014bfd3ad2b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS Limiter setter.  <a href="../../da/d67/classfpsCounter.html#a350705bebf2570b4bd3014bfd3ad2b14">More...</a><br /></td></tr>
+<tr class="separator:a350705bebf2570b4bd3014bfd3ad2b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca693a136036695b2f2fd1a698fc8d2"><td class="memItemLeft" align="right" valign="top">static Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d67/classfpsCounter.html#acca693a136036695b2f2fd1a698fc8d2">fpsTimerCallback</a> (Uint32 interval, void *data)</td></tr>
+<tr class="memdesc:acca693a136036695b2f2fd1a698fc8d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The atomic frame counter callback function.  <a href="../../da/d67/classfpsCounter.html#acca693a136036695b2f2fd1a698fc8d2">More...</a><br /></td></tr>
+<tr class="separator:acca693a136036695b2f2fd1a698fc8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >FPS counter, logger and limiter static class. </p>
+<p >FPS counter, logger and limiter. Contact: <a href="#" onclick="location.href='mai'+'lto:'+'san'+'do'+'rba'+'la'+'zs9'+'40'+'2@g'+'ma'+'il.'+'co'+'m'; return false;">sando<span style="display: none;">.nosp@m.</span>rbal<span style="display: none;">.nosp@m.</span>azs94<span style="display: none;">.nosp@m.</span>02@g<span style="display: none;">.nosp@m.</span>mail.<span style="display: none;">.nosp@m.</span>com</a>.</p>
+<dl class="section author"><dt>Author</dt><dd>Sándor Balázs - AZA6NL </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2021.11.08. </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeae98296ceb16a5b53f073fa1f638c73" name="aeae98296ceb16a5b53f073fa1f638c73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeae98296ceb16a5b53f073fa1f638c73">&#9670;&nbsp;</a></span>fpsCounter()</h2>
 
@@ -177,6 +194,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Private constructor for a static class. </p>
 
 </div>
 </div>
@@ -203,6 +222,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Private destructor for a static class. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -228,6 +249,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initialize the class. </p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -235,8 +258,8 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_cgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_cgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_cgraph" id="ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,141,35"/>
-<area shape="rect" href="../../da/d67/classfpsCounter.html#acca693a136036695b2f2fd1a698fc8d2" title=" " alt="" coords="189,5,417,35"/>
+<area shape="rect" title="Initialize the class." alt="" coords="5,5,141,35"/>
+<area shape="rect" href="../../da/d67/classfpsCounter.html#acca693a136036695b2f2fd1a698fc8d2" title="The atomic frame counter callback function." alt="" coords="189,5,417,35"/>
 </map>
 </div>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -246,8 +269,8 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_icgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_icgraph" id="ada/d67/classfpsCounter_a02e48119b0b5c4de909fb26e495917c1_icgraph">
-<area shape="rect" title=" " alt="" coords="757,5,893,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#a146f649814554dafa5999dc2b3f7e62f" title="Render constructor." alt="" coords="599,5,709,35"/>
+<area shape="rect" title="Initialize the class." alt="" coords="757,5,893,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#a146f649814554dafa5999dc2b3f7e62f" title="Binding the render to the window." alt="" coords="599,5,709,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#aa749c366f50a6fe841819d5c7c0b3af7" title="Render variable setting." alt="" coords="316,5,551,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -279,6 +302,14 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>FPS Limiter setter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">limit</td><td>The new FPS limit. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -286,9 +317,9 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_a350705bebf2570b4bd3014bfd3ad2b14_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a350705bebf2570b4bd3014bfd3ad2b14_icgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_a350705bebf2570b4bd3014bfd3ad2b14_icgraph" id="ada/d67/classfpsCounter_a350705bebf2570b4bd3014bfd3ad2b14_icgraph">
-<area shape="rect" title=" " alt="" coords="924,5,1099,35"/>
-<area shape="rect" href="../../da/d67/classfpsCounter.html#a3e23a7ffe91a6070005fab63bf535019" title=" " alt="" coords="740,5,876,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" title="FPS Limiter setter." alt="" coords="924,5,1099,35"/>
+<area shape="rect" href="../../da/d67/classfpsCounter.html#a3e23a7ffe91a6070005fab63bf535019" title="Stop the counter." alt="" coords="740,5,876,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -297,8 +328,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae7610addf69dfe527654c56bdbf06528" name="ae7610addf69dfe527654c56bdbf06528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7610addf69dfe527654c56bdbf06528">&#9670;&nbsp;</a></span>fpsLimiterOff()</h2>
+<a id="a807adf44db118e90e6fb830b795616c9" name="a807adf44db118e90e6fb830b795616c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807adf44db118e90e6fb830b795616c9">&#9670;&nbsp;</a></span>fpsLimiterOff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +338,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void fpsCounter::fpsLimiterOff </td>
+          <td class="memname">void fpsCounter::fpsLimiterOff </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -315,23 +346,25 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>FPS Limiter OFF. </p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/d67/classfpsCounter_ae7610addf69dfe527654c56bdbf06528_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_ae7610addf69dfe527654c56bdbf06528_icgraph" alt=""/></div>
-<map name="ada/d67/classfpsCounter_ae7610addf69dfe527654c56bdbf06528_icgraph" id="ada/d67/classfpsCounter_ae7610addf69dfe527654c56bdbf06528_icgraph">
-<area shape="rect" title=" " alt="" coords="1508,5,1703,35"/>
+<div class="center"><img src="../../da/d67/classfpsCounter_a807adf44db118e90e6fb830b795616c9_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a807adf44db118e90e6fb830b795616c9_icgraph" alt=""/></div>
+<map name="ada/d67/classfpsCounter_a807adf44db118e90e6fb830b795616c9_icgraph" id="ada/d67/classfpsCounter_a807adf44db118e90e6fb830b795616c9_icgraph">
+<area shape="rect" title="FPS Limiter OFF." alt="" coords="1508,5,1703,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a19778d5b0ee49a7a71b11492c36cabab" title="Window descriptor for the graphic settings window." alt="" coords="1239,5,1460,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a00ce3e5923599d1b2355915c4ced4bb3" title="The widows opening and closing system." alt="" coords="1028,5,1191,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a9dace388dbf579b96d875f4a051d1174" title="The main GUI function." alt="" coords="889,5,980,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#ae63efaa6d38814299c42540a5d4ea00b" title="Render the GUI graphics in the render cycle." alt="" coords="740,5,841,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -340,8 +373,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="add5fba2d69d73e46181e00e1f0a79221" name="add5fba2d69d73e46181e00e1f0a79221"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add5fba2d69d73e46181e00e1f0a79221">&#9670;&nbsp;</a></span>fpsLimiterOn()</h2>
+<a id="ac8b28590c9c8385639c15d2e715e2c09" name="ac8b28590c9c8385639c15d2e715e2c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b28590c9c8385639c15d2e715e2c09">&#9670;&nbsp;</a></span>fpsLimiterOn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +383,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void fpsCounter::fpsLimiterOn </td>
+          <td class="memname">void fpsCounter::fpsLimiterOn </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -358,23 +391,25 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>FPS Limiter ON. </p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/d67/classfpsCounter_add5fba2d69d73e46181e00e1f0a79221_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_add5fba2d69d73e46181e00e1f0a79221_icgraph" alt=""/></div>
-<map name="ada/d67/classfpsCounter_add5fba2d69d73e46181e00e1f0a79221_icgraph" id="ada/d67/classfpsCounter_add5fba2d69d73e46181e00e1f0a79221_icgraph">
-<area shape="rect" title=" " alt="" coords="1508,5,1703,35"/>
+<div class="center"><img src="../../da/d67/classfpsCounter_ac8b28590c9c8385639c15d2e715e2c09_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_ac8b28590c9c8385639c15d2e715e2c09_icgraph" alt=""/></div>
+<map name="ada/d67/classfpsCounter_ac8b28590c9c8385639c15d2e715e2c09_icgraph" id="ada/d67/classfpsCounter_ac8b28590c9c8385639c15d2e715e2c09_icgraph">
+<area shape="rect" title="FPS Limiter ON." alt="" coords="1508,5,1703,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a19778d5b0ee49a7a71b11492c36cabab" title="Window descriptor for the graphic settings window." alt="" coords="1239,5,1460,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a00ce3e5923599d1b2355915c4ced4bb3" title="The widows opening and closing system." alt="" coords="1028,5,1191,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a9dace388dbf579b96d875f4a051d1174" title="The main GUI function." alt="" coords="889,5,980,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#ae63efaa6d38814299c42540a5d4ea00b" title="Render the GUI graphics in the render cycle." alt="" coords="740,5,841,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -416,6 +451,16 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The atomic frame counter callback function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">interval</td><td>The SDL timer interval. </td></tr>
+    <tr><td class="paramname">data</td><td>The SDL Timer data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The SDL Timer return. </dd></dl>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -423,9 +468,9 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_acca693a136036695b2f2fd1a698fc8d2_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_acca693a136036695b2f2fd1a698fc8d2_icgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_acca693a136036695b2f2fd1a698fc8d2_icgraph" id="ada/d67/classfpsCounter_acca693a136036695b2f2fd1a698fc8d2_icgraph">
-<area shape="rect" title=" " alt="" coords="941,5,1169,35"/>
-<area shape="rect" href="../../da/d67/classfpsCounter.html#a02e48119b0b5c4de909fb26e495917c1" title=" " alt="" coords="757,5,893,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#a146f649814554dafa5999dc2b3f7e62f" title="Render constructor." alt="" coords="599,5,709,35"/>
+<area shape="rect" title="The atomic frame counter callback function." alt="" coords="941,5,1169,35"/>
+<area shape="rect" href="../../da/d67/classfpsCounter.html#a02e48119b0b5c4de909fb26e495917c1" title="Initialize the class." alt="" coords="757,5,893,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#a146f649814554dafa5999dc2b3f7e62f" title="Binding the render to the window." alt="" coords="599,5,709,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#aa749c366f50a6fe841819d5c7c0b3af7" title="Render variable setting." alt="" coords="316,5,551,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -434,8 +479,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abc660c05b8a9748e5d49c71ea9f2457b" name="abc660c05b8a9748e5d49c71ea9f2457b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc660c05b8a9748e5d49c71ea9f2457b">&#9670;&nbsp;</a></span>getAverageFPS()</h2>
+<a id="a9965206d185c8beb7cf311177442184a" name="a9965206d185c8beb7cf311177442184a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9965206d185c8beb7cf311177442184a">&#9670;&nbsp;</a></span>getAverageFPS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,7 +489,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float fpsCounter::getAverageFPS </td>
+          <td class="memname">float fpsCounter::getAverageFPS </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -452,26 +497,29 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Getter for average FPS. </p>
+<dl class="section return"><dt>Returns</dt><dd>average FPS. </dd></dl>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/d67/classfpsCounter_abc660c05b8a9748e5d49c71ea9f2457b_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_abc660c05b8a9748e5d49c71ea9f2457b_icgraph" alt=""/></div>
-<map name="ada/d67/classfpsCounter_abc660c05b8a9748e5d49c71ea9f2457b_icgraph" id="ada/d67/classfpsCounter_abc660c05b8a9748e5d49c71ea9f2457b_icgraph">
-<area shape="rect" title=" " alt="" coords="1705,85,1924,115"/>
+<div class="center"><img src="../../da/d67/classfpsCounter_a9965206d185c8beb7cf311177442184a_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a9965206d185c8beb7cf311177442184a_icgraph" alt=""/></div>
+<map name="ada/d67/classfpsCounter_a9965206d185c8beb7cf311177442184a_icgraph" id="ada/d67/classfpsCounter_a9965206d185c8beb7cf311177442184a_icgraph">
+<area shape="rect" title="Getter for average FPS." alt="" coords="1705,85,1924,115"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a49b02c03780c682af66842db85d28afd" title="The FPS graph." alt="" coords="1537,59,1657,88"/>
-<area shape="rect" href="../../d2/dda/classRender.html#a3bda60a00cba53701137c601c016f115" title="Windowe title text setter." alt="" coords="1028,111,1215,140"/>
+<area shape="rect" href="../../d2/dda/classRender.html#a3bda60a00cba53701137c601c016f115" title="Window title text setter." alt="" coords="1028,111,1215,140"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a19778d5b0ee49a7a71b11492c36cabab" title="Window descriptor for the graphic settings window." alt="" coords="1265,5,1487,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a1cd317a6521d0253eb14df0f64163789" title="Window for the running statistics." alt="" coords="1263,59,1489,88"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a00ce3e5923599d1b2355915c4ced4bb3" title="The widows opening and closing system." alt="" coords="1040,57,1203,87"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a9dace388dbf579b96d875f4a051d1174" title="The main GUI function." alt="" coords="889,59,980,88"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#ae63efaa6d38814299c42540a5d4ea00b" title="Render the GUI graphics in the render cycle." alt="" coords="740,59,841,88"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,85,692,115"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,85,692,115"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,85,517,115"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,85,268,115"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,85,61,115"/>
@@ -480,8 +528,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9631ed19ec97515aba03a89f830099ba" name="a9631ed19ec97515aba03a89f830099ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9631ed19ec97515aba03a89f830099ba">&#9670;&nbsp;</a></span>getCurrentFPS()</h2>
+<a id="a8493e1cd5f7f919a311fa539dfa5c66a" name="a8493e1cd5f7f919a311fa539dfa5c66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8493e1cd5f7f919a311fa539dfa5c66a">&#9670;&nbsp;</a></span>getCurrentFPS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +538,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float fpsCounter::getCurrentFPS </td>
+          <td class="memname">float fpsCounter::getCurrentFPS </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -498,15 +546,18 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Getter for current FPS. </p>
+<dl class="section return"><dt>Returns</dt><dd>current FPS. </dd></dl>
+
 </div>
 </div>
-<a id="ad6ddd4445ae398f2d6ed9bb7cc067138" name="ad6ddd4445ae398f2d6ed9bb7cc067138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6ddd4445ae398f2d6ed9bb7cc067138">&#9670;&nbsp;</a></span>setFpsLimit()</h2>
+<a id="a52ec6e573547ca0a2a92796758274d00" name="a52ec6e573547ca0a2a92796758274d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ec6e573547ca0a2a92796758274d00">&#9670;&nbsp;</a></span>setFpsLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -515,7 +566,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void fpsCounter::setFpsLimit </td>
+          <td class="memname">void fpsCounter::setFpsLimit </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>limit</em></td><td>)</td>
@@ -524,23 +575,31 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Set FPS limiter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">limit</td><td>New FPS limit. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../da/d67/classfpsCounter_ad6ddd4445ae398f2d6ed9bb7cc067138_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_ad6ddd4445ae398f2d6ed9bb7cc067138_icgraph" alt=""/></div>
-<map name="ada/d67/classfpsCounter_ad6ddd4445ae398f2d6ed9bb7cc067138_icgraph" id="ada/d67/classfpsCounter_ad6ddd4445ae398f2d6ed9bb7cc067138_icgraph">
-<area shape="rect" title=" " alt="" coords="1508,5,1696,35"/>
+<div class="center"><img src="../../da/d67/classfpsCounter_a52ec6e573547ca0a2a92796758274d00_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a52ec6e573547ca0a2a92796758274d00_icgraph" alt=""/></div>
+<map name="ada/d67/classfpsCounter_a52ec6e573547ca0a2a92796758274d00_icgraph" id="ada/d67/classfpsCounter_a52ec6e573547ca0a2a92796758274d00_icgraph">
+<area shape="rect" title="Set FPS limiter." alt="" coords="1508,5,1696,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a19778d5b0ee49a7a71b11492c36cabab" title="Window descriptor for the graphic settings window." alt="" coords="1239,5,1460,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a00ce3e5923599d1b2355915c4ced4bb3" title="The widows opening and closing system." alt="" coords="1028,5,1191,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#a9dace388dbf579b96d875f4a051d1174" title="The main GUI function." alt="" coords="889,5,980,35"/>
 <area shape="rect" href="../../dc/d3a/classGUI.html#ae63efaa6d38814299c42540a5d4ea00b" title="Render the GUI graphics in the render cycle." alt="" coords="740,5,841,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -571,6 +630,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Start FPS counting. </p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -578,8 +639,8 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_aad004c063f16cc0b88dc047a3a5b0326_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_aad004c063f16cc0b88dc047a3a5b0326_icgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_aad004c063f16cc0b88dc047a3a5b0326_icgraph" id="ada/d67/classfpsCounter_aad004c063f16cc0b88dc047a3a5b0326_icgraph">
-<area shape="rect" title=" " alt="" coords="740,5,876,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" title="Start FPS counting." alt="" coords="740,5,876,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -610,6 +671,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Stop the counter. </p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -617,8 +680,8 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_cgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_cgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_cgraph" id="ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,141,35"/>
-<area shape="rect" href="../../da/d67/classfpsCounter.html#a350705bebf2570b4bd3014bfd3ad2b14" title=" " alt="" coords="189,5,364,35"/>
+<area shape="rect" title="Stop the counter." alt="" coords="5,5,141,35"/>
+<area shape="rect" href="../../da/d67/classfpsCounter.html#a350705bebf2570b4bd3014bfd3ad2b14" title="FPS Limiter setter." alt="" coords="189,5,364,35"/>
 </map>
 </div>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -628,8 +691,8 @@ Static Private Attributes</h2></td></tr>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="../../da/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_icgraph.png" border="0" usemap="#ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_icgraph" alt=""/></div>
 <map name="ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_icgraph" id="ada/d67/classfpsCounter_a3e23a7ffe91a6070005fab63bf535019_icgraph">
-<area shape="rect" title=" " alt="" coords="740,5,876,35"/>
-<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Remder the next frame." alt="" coords="565,5,692,35"/>
+<area shape="rect" title="Stop the counter." alt="" coords="740,5,876,35"/>
+<area shape="rect" href="../../d2/dda/classRender.html#af30d499dd0f75d71d5f65f6f4bd4e102" title="Render the next frame." alt="" coords="565,5,692,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a6a6ee764eea5d1f5a81f7ecce80a0874" title="Render Start!" alt="" coords="316,5,517,35"/>
 <area shape="rect" href="../../d1/d76/classWorkWindow.html#a3eb2d3857bd1e4888a92aa3e4c49b0b6" title="Open and show the window." alt="" coords="109,5,268,35"/>
 <area shape="rect" href="../../d1/dc4/TrafficSimulator_8cpp.html#a700a0caa5b70a06d1064e576f9f3cf65" title="Program main function." alt="" coords="5,5,61,35"/>
@@ -659,6 +722,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The atomic frame counter. </p>
+
 </div>
 </div>
 <a id="a40ba37e54963c5be2a20cd8615c9af2f" name="a40ba37e54963c5be2a20cd8615c9af2f"></a>
@@ -680,6 +745,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The average FPS. </p>
 
 </div>
 </div>
@@ -703,6 +770,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Parallel FPS counter update interval. </p>
+
 </div>
 </div>
 <a id="aa965ea0197ae184531fe4df3469aedbf" name="aa965ea0197ae184531fe4df3469aedbf"></a>
@@ -724,6 +793,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current FPS. </p>
 
 </div>
 </div>
@@ -747,6 +818,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The current time. </p>
+
 </div>
 </div>
 <a id="a094477d068139dd1377ebd87cbce00ba" name="a094477d068139dd1377ebd87cbce00ba"></a>
@@ -768,6 +841,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current FPS limit. </p>
 
 </div>
 </div>
@@ -791,6 +866,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The FPS Log array. </p>
+
 </div>
 </div>
 <a id="a697e8c275491ee974f9364b3d68aac51" name="a697e8c275491ee974f9364b3d68aac51"></a>
@@ -812,6 +889,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The FPS log index. </p>
 
 </div>
 </div>
@@ -835,6 +914,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The FPS limiter switch. </p>
+
 </div>
 </div>
 <a id="aa9f17d5845d2c4695e7466cb01436657" name="aa9f17d5845d2c4695e7466cb01436657"></a>
@@ -856,6 +937,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The current time for the limiter delay. </p>
 
 </div>
 </div>
@@ -879,6 +962,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The previous saved time. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -888,7 +973,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 14 2021 00:24:55 for Traffic Simulation by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+Generated on Tue Dec 21 2021 01:49:30 for Traffic Simulation by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
 </small></address>
 </body>
 </html>
