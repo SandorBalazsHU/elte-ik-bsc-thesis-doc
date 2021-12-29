@@ -1,6 +1,6 @@
 <map id="ObjectStorage" name="ObjectStorage">
-<area shape="rect" id="node1" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="73,377,278,1104"/>
-<area shape="rect" id="node2" title=" " alt="" coords="59,140,148,225"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,201,91"/>
-<area shape="rect" id="node4" title=" " alt="" coords="203,140,295,225"/>
+<area shape="rect" id="node1" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="5,377,485,1104"/>
+<area shape="rect" id="node2" title=" " alt="" coords="129,140,218,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="75,5,271,91"/>
+<area shape="rect" id="node4" title=" " alt="" coords="273,140,365,225"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="Object3D" name="Object3D">
-<area shape="rect" id="node1" title="The 3D renderable object representation." alt="" coords="5,1169,195,2468"/>
-<area shape="rect" id="node2" href="$db/d2d/classObjectStorage.html" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="173,377,379,1104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="59,140,149,225"/>
-<area shape="rect" id="node4" title=" " alt="" coords="6,5,202,91"/>
-<area shape="rect" id="node5" title=" " alt="" coords="230,140,322,225"/>
+<area shape="rect" id="node1" title="The 3D renderable object representation." alt="" coords="5,1169,412,2537"/>
+<area shape="rect" id="node2" href="$db/d2d/classObjectStorage.html" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="282,377,762,1104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="237,140,327,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="184,5,380,91"/>
+<area shape="rect" id="node5" title=" " alt="" coords="476,140,568,225"/>
 </map>

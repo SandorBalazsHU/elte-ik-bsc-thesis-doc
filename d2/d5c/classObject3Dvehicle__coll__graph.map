@@ -1,8 +1,8 @@
 <map id="Object3Dvehicle" name="Object3Dvehicle">
-<area shape="rect" id="node1" title="The renderable vehicle representation." alt="" coords="5,2569,171,2880"/>
-<area shape="rect" id="node2" href="$d8/d1b/classObject3D.html" title="The 3D renderable object representation." alt="" coords="109,1221,299,2520"/>
-<area shape="rect" id="node3" href="$db/d2d/classObjectStorage.html" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="292,377,497,1104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="153,140,242,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="99,5,295,91"/>
-<area shape="rect" id="node6" title=" " alt="" coords="349,140,441,225"/>
+<area shape="rect" id="node1" title="The renderable vehicle representation." alt="" coords="5,2639,669,3036"/>
+<area shape="rect" id="node2" href="$d8/d1b/classObject3D.html" title="The 3D renderable object representation." alt="" coords="359,1221,766,2589"/>
+<area shape="rect" id="node3" href="$db/d2d/classObjectStorage.html" title="Load and store the 3D Models and Textures and create the render objects." alt="" coords="541,377,1021,1104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="402,140,491,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="349,5,545,91"/>
+<area shape="rect" id="node6" title=" " alt="" coords="735,140,827,225"/>
 </map>
